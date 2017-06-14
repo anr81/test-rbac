@@ -1,0 +1,14 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    
+    # Включаем mod_rewrite
+    RewriteEngine On
+    #IndexIgnore */*
+    
+    # redirect
+    RewriteRule ^(.+)?$ /web/$1
+
+  
+</IfModule>
