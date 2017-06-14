@@ -5,7 +5,6 @@ Options -Indexes
     
     # Включаем mod_rewrite
     RewriteEngine On
-    #IndexIgnore */*
     
     # redirect
     RewriteRule ^(.+)?$ /web/$1
